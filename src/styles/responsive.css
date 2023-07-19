@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  .header .header__menu {
+    display: none;
+  }
+
+  .header .header__navigation {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: transparent;
+  }
+
+  .header .header__navigation ul {
+    flex-direction: row;
+  }
+
+  .header .header__navigation ul li {
+    margin: 0 16px;
+  }
+
+  .restaurant-item {
+    max-width: 320px;
+  }
+}
