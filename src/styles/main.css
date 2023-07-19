@@ -80,8 +80,6 @@ a, button {
   border: none;
   font-size: 2rem;
   text-align: center;
-  min-width: 44px;
-  min-height: 44px;
   cursor: pointer;
 }
 
@@ -213,12 +211,13 @@ a, button {
 }
 
 .restaurant-item .restaurant-item__content {
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
 }
 
 .restaurant-item .restaurant-item__content h3 {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 .restaurant-item .restaurant-item__content p {
